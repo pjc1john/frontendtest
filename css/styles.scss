@@ -73,19 +73,6 @@
         }
     }
 
-    @media screen and (max-width: 512px){
-        .content{
-            width: 80%;
-            h1{
-                font-size: 3em;
-            }
-
-            button{
-                margin-top: 15px;
-            }
-        }
-    }
-
     @media screen and (max-width: 800px){
         .content{
             width: 80%;
@@ -98,6 +85,19 @@
             }
         }
     }
+    @media screen and (max-width: 512px){
+        .content{
+            width: 80%;
+            h1{
+                font-size: 2em;
+            }
+
+            button{
+                margin-top: 15px;
+            }
+        }
+    }
+
 
     .pager{
         position: absolute;
